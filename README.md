@@ -36,7 +36,7 @@ stack/deploy-electrum.sh
 ```
 
 ### Miners and mining pools
-Bitcoin Global can be mined via same equipment and protocols used for mining Bitcoin, using **SHA256** PoW algorithm. Our [pool.mainnet.bitcoin-global.io:9223](pool.mainnet.bitcoin-global.io:9223) mining pool supports **stratum** protocol and can be joined easily 
+Bitcoin Global can be mined via same equipment and protocols used for mining Bitcoin, using **SHA256** PoW algorithm. Our [pool.mainnet.bitcoin-global.io:9223](http://pool.mainnet.bitcoin-global.io:9223) mining pool supports **stratum** protocol and can be joined easily 
 by both solo miners and mining pools.     
 
 
