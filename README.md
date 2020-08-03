@@ -101,7 +101,7 @@ Main servers are located in Europe, referenced as:
 
 ## Community
 
-* [Slack](https://bitcoin-global-io.slack.com)
+
 * [Telegram](https://t.me/BitcoinGlobalOffical)
 * [Discord](https://discord.gg/JFtQdk9)
 * [Twitter](https://twitter.com/bitcoinglobalio)
