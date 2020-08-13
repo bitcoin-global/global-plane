@@ -62,6 +62,7 @@ version of the stack by following the [global-stack](https://github.com/bitcoin-
 ElectrumX | Explorer
 --- | ---
 [electrumx.us.mainnet.bitcoin-global.io](http://electrumx.us.mainnet.bitcoin-global.io) | [explorer.us.mainnet.bitcoin-global.io](https://explorer.us.mainnet.bitcoin-global.io)
+[electrumx.asia.mainnet.bitcoin-global.io](http://electrumx.asia.mainnet.bitcoin-global.io) | [explorer.asia.mainnet.bitcoin-global.io](https://explorer.asia.mainnet.bitcoin-global.io)
 [electrumx.australia.mainnet.bitcoin-global.io](http://electrumx.australia.mainnet.bitcoin-global.io) | [explorer.australia.mainnet.bitcoin-global.io](https://explorer.australia.mainnet.bitcoin-global.io)
 [electrumx.europe.mainnet.bitcoin-global.io](http://electrumx.europe.mainnet.bitcoin-global.io) | [explorer.europe.mainnet.bitcoin-global.io](https://explorer.europe.mainnet.bitcoin-global.io)
     
