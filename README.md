@@ -17,47 +17,21 @@ Bitcoin Global is a community-driven open-source project. Find more information 
 Help Bitcoin Global project grow by joining and extending our network. Running any stack will benefit everyone on the network - improving speed, stability and security. 
 Below are some of the ways you can help us.
 
-### Running a full node
-```bash
-git clone https://github.com/bitcoin-global/global-stack && cd ./global-stack
-BTG_VERSION="0.19.2"
-node/install-node.sh \
-    -v ${BTG_VERSION} \
-    -r v${BTG_VERSION} \
-    -t ~/binaries \
-    -d ~/bitcoin-global
-```
+### Full node
+Download the software release matching your environment and start contributing by running a full node. The details and instructions on how to run a full node can be found on [Bitcoin Global](https://github.com/bitcoin-global/bitcoin-global/releases) release page.
 
-### Running an Electrum server
-```bash
-git clone https://github.com/bitcoin-global/global-stack && cd ./global-stack
-nano stack/deploy-electrum.sh   # update parameters
-stack/deploy-electrum.sh
-```
+### Electrum server
+Environment-specific software releases are available on [Global Electrum](https://github.com/bitcoin-global/global-electrum/releases) release page.
 
 ### Miners and mining pools
 Bitcoin Global can be mined via same equipment and protocols used for mining Bitcoin, using **SHA256** PoW algorithm. Our [pool.mainnet.bitcoin-global.io:9223](http://pool.mainnet.bitcoin-global.io:9223) mining pool supports **stratum** protocol and can be joined easily 
 by both solo miners and mining pools.     
 
-
-```bash
-# Install dependencies: https://bitcointalk.org/index.php?topic=55038.0
-git clone https://github.com/bitcoin-global/global-miner && cd ./global-miner
-./autogen.sh
-./configure
-make
-
-# Mine
-./minerd -a sha256d \
-    --url stratum+tcp://pool.mainnet.bitcoin-global.io:9223 \
-    --userpass ${PUBLIC_USERNAME}:. \     # your unique username
-    --coinbase-addr ${PAYOUT_ADDRESS}     # your own Bitcoin Global address, eg "GTanHYuaZyUfSfGkSV1TK52YCky5MSbk2Y"
-```
+Check [global-miner](https://github.com/bitcoin-global/global-miner) and [global-pool](https://github.com/bitcoin-global/global-p2pool) for references and guides on how to start mining Bitcoin Global.
      
-
 ## Infrastructure details
 Bitcoin Global infrastructure stack is hosted across multiple regions for the sake of availiability, low latency, and decentralization. You can help us by running your own
-version of the stack by following the [global-stack](https://github.com/bitcoin-global/global-stack) guidelines.
+version of the stack by following instruction provided above or guidelines provided and described by [global-stack](https://github.com/bitcoin-global/global-stack).
     
 ElectrumX | Explorer
 --- | ---
@@ -107,4 +81,5 @@ Main servers are located in Europe, referenced as:
 * [Twitter](https://twitter.com/bitcoinglobalio)
 * [Facebook](https://www.facebook.com/BitcoinGlobalGLOB)
 * [Reddit](https://www.reddit.com/user/Bitcoin-Global)
-
+    
+If you have additional questions, reach out to [hivemindf@gmail.com](mailto:hivemindf@gmail.com)
