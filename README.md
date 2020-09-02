@@ -1,12 +1,13 @@
 <p align="center"><img src="https://i.ibb.co/n0xQ1RY/logo-transparent.png" height="300"></p>
      
 Bitcoin Global is a community-driven open-source project. Find more information on how our project works, and how you can help us grow and benefit from it.
-     
+
+- [How-To Guides](/HOW-TO.md)
 - [Joining in](#joining-in)
-  - [Running a full node](#running-a-full-node)
-  - [Running an Electrum server](#running-an-electrum-server)
+  - [Full node](#running-a-full-node)
+  - [Electrum server](#running-an-electrum-server)
   - [Miners and mining pools](#miners-and-mining-pools)
-- [Infrastructure details](#infrastructure-details)
+- [Infrastructure](#infrastructure)
 - [Development Resources](#development-resources)
 - [Community](#community)
     
@@ -29,7 +30,7 @@ by both solo miners and mining pools.
 
 Check [global-miner](https://github.com/bitcoin-global/global-miner) and [global-pool](https://github.com/bitcoin-global/global-p2pool) for references and guides on how to start mining Bitcoin Global.
      
-## Infrastructure details
+## Infrastructure
 Bitcoin Global infrastructure stack is hosted across multiple regions for the sake of availiability, low latency, and decentralization. You can help us by running your own
 version of the stack by following instruction provided above or guidelines provided and described by [global-stack](https://github.com/bitcoin-global/global-stack).
     
